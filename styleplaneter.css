@@ -1,0 +1,176 @@
+/*alla rubriker ska vara i mitten*/
+header,h2{ text-align: center; }
+
+
+/* menyn*/
+nav > ul {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    list-style: none;
+    grid-gap:30px;
+    margin:20px;
+    
+}
+
+nav > ul a{
+    display:block;
+    font-size: 30px;
+    background: url(https://i.pinimg.com/originals/84/c2/b3/84c2b339e6fa8a98672417b85a9ffd2c.jpg);
+    text-align:center;
+    border: solid black 2px;
+    border-radius:10px;
+    
+    
+}
+/* backgrund färg+border*/
+main.vanlig1,header {background-color: grey;
+border-width:10px;
+border-style:solid;}
+
+/* bakgrunden*/
+body.vanlig {  
+    margin: 30px;
+    background:url(https://i.pinimg.com/originals/a4/91/bd/a491bd73c9f27ef7795d2f32a026a20a.jpg);
+    background-size:100%; }
+
+/* ett streck under nav*/
+nav { border-bottom: 2px solid black;}
+
+/* bild på första sidan*/
+.solsystembild{
+    display:grid;
+    margin-left:auto;
+    margin-right: auto;
+    width:50% }
+
+/* columner med bild och text*/
+div{ 
+    display:grid;
+    grid-template-columns: 340px 1fr;
+}
+
+/* alla bilder på "planet sidorna" ska ha bredden 300px */
+img{
+    width:300px;
+    margin:20px;
+}
+/* alla p-taggar ska ha en marginal på 20px*/
+p{ 
+    margin: 20px; 
+}
+/*färger på länkarna*/
+a:link { color:white;
+text-decoration:none;}
+a:visited {color:black;}
+a:hover {color:blue;}
+
+p.ramsa{ font-size:30px;
+color:white;}
+
+
+
+
+/* allt som är med på spel sidan*/
+body.spelsidan{background-color:#990000;}
+
+h1{text-align:center;}
+p.textspel{ border: double black;
+background-color: white;}
+
+.headerspel{background-color:#990000;}
+
+
+.container{ 
+    position:relative;
+    width:50%;
+}
+
+.overlay {
+    position:absolute;
+    bottom:100%;
+    left: 0;
+    right:0;
+    background-color:black;
+    overflow:hidden;
+    width:50%;
+    height:0;
+    transition: .5s ease: 
+}
+
+.bild{
+  display: block;
+  width: 300px;
+  height: auto;
+    }
+
+.bild2{ display: block;
+  width: 300px;
+    height: auto;}
+
+.bild3 {display:block;
+    width:300px;
+    height:auto;}
+
+.bild4 {display:block;
+    width:300px;
+    height:auto;}
+
+.bild5{display:block;
+    width:300px;
+    height:auto;}
+
+.bild6{display:block;
+    width:300px;
+    height:auto;}
+
+.bild7{display:block;
+    width:300px;
+    height:auto;}
+
+.bild8{display:block;
+    width:300px;
+    height:auto;}
+
+.container:active .overlay {
+  bottom: 0;
+  height: 100%;
+    width:300px;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%); 
+}
+        
+
+div.container, div.overlay, div.text{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* 1fr 1fr 1fr 1fr
+       1fr 1fr 1fr 1fr*/
+    margin:20px;
+}
+
+
+
+
+
+
+
+    
+
+
+    
+    
+    
+    
+    
+    
+ 
